@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+recursive-include doubao/templates *
+recursive-include doubao/static *
+recursive-include doubao/migrations *.py
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude *.so
